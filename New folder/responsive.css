@@ -1,0 +1,41 @@
+/* Mobile Version
+@media only screen and (max-width: 375px) {
+    .navbar {
+        position: relative;
+        z-index: 1;
+        font-family: Viga;
+    }
+
+    .navbar-brand {
+        font-size: 32px;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 15px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* Jumbotron */
+    /* .jumbotron {
+        background-image: url(images/work.jpg);
+        background-size: cover;
+        height: 500px;
+        text-align: center;  
+        position: relative;
+    } */
+
+/* } */
